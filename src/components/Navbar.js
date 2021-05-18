@@ -29,7 +29,7 @@ const Navbar = () => {
 			<nav className="navbar">
 				<div className="navbar-container">
 					<Link to="/" className="navbar-logo" onClick={closedMobilemenu}>
-						TRVL <i className="fab fa-typo3" />
+						Doon The Water
 					</Link>
 					<div className="menu-icon" onClick={handleClick}>
 						<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -51,7 +51,7 @@ const Navbar = () => {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/sign-up" className="nav-links-mobile" onClick={closedMobilemenu}>
+							<Link to="/sign-up" className="nav-links" onClick={closedMobilemenu}>
 								Sign Up
 							</Link>
 						</li>
